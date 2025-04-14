@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetAudioSource: {fileID: 10273176}
-  apiKey: sk_69f1014b5da7d42cb4b36ebb64454ae8f764bc8c990fe145
+  apiKey: sk_7e9d7a3627b7adafddf59ab33a75f03f0b5ae07bcdf84800
   voiceId: 5Q0t7uMcjvnagumLfvZi
 --- !u!4 &453679355
 Transform:

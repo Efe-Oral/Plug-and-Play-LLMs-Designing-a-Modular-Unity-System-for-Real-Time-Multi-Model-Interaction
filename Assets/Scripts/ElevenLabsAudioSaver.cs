@@ -12,7 +12,7 @@ public class ElevenLabsAudioSaver : MonoBehaviour
     public AudioSource targetAudioSource;
 
     [Header("ElevenLabs Settings")]
-    public string apiKey = "sk_69f1014b5da7d42cb4b36ebb64454ae8f764bc8c990fe145";
+    public string apiKey = "sk_7e9d7a3627b7adafddf59ab33a75f03f0b5ae07bcdf84800";
     //New sevi elevenlabs account API key: sk_0e626ff89cbc9cc9f829affe7dbc9ab1c466b6dcc832be89
     public string voiceId = "EXAVITQu4vr4xnSDxMaL"; // 5Q0t7uMcjvnagumLfvZi
 

@@ -24,8 +24,7 @@ public class TestingTextToSpeech : MonoBehaviour
 
     async Task StartAsync(string input)
     {
-        var api = new ElevenLabs.ElevenLabsClient("sk_69f1014b5da7d42cb4b36ebb64454ae8f764bc8c990fe145");
-        //New temp API: sk_db3d8a9a858dd8c82a76501dd054efbe6e4e4212c1eda54f 
+        var api = new ElevenLabs.ElevenLabsClient("sk_7e9d7a3627b7adafddf59ab33a75f03f0b5ae07bcdf84800");
         //New temp API: sk_7e9d7a3627b7adafddf59ab33a75f03f0b5ae07bcdf84800 // Restricted key, allowed only Text to Speech, Voices (read), Voices (write)
         var text = input;
         var voices = await api.VoicesEndpoint.GetAllVoicesAsync();
